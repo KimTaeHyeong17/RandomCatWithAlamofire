@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		49DF7D092431DF6800683E1A /* RandomCatPicture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49DF7D072431DF6800683E1A /* RandomCatPicture.xcdatamodeld */; };
 		49DF7D0B2431DF6B00683E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DF7D0A2431DF6B00683E1A /* Assets.xcassets */; };
 		49DF7D0E2431DF6B00683E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DF7D0C2431DF6B00683E1A /* LaunchScreen.storyboard */; };
+		49DF7D162431E29200683E1A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DF7D152431E29200683E1A /* Network.swift */; };
 		AE5B80CE9DE5B7568E7A8AD1 /* Pods_RandomCatPicture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AA0B4119D9F4256E1FCB33 /* Pods_RandomCatPicture.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		49DF7D0A2431DF6B00683E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49DF7D0D2431DF6B00683E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49DF7D0F2431DF6B00683E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DF7D152431E29200683E1A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		ACF10E2DA8B7F764CE5923CA /* Pods-RandomCatPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomCatPicture.release.xcconfig"; path = "Target Support Files/Pods-RandomCatPicture/Pods-RandomCatPicture.release.xcconfig"; sourceTree = "<group>"; };
 		D7AA0B4119D9F4256E1FCB33 /* Pods_RandomCatPicture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomCatPicture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,7 +52,6 @@
 				2DAD5CBB307C86430C518E58 /* Pods-RandomCatPicture.debug.xcconfig */,
 				ACF10E2DA8B7F764CE5923CA /* Pods-RandomCatPicture.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 				49DF7D0C2431DF6B00683E1A /* LaunchScreen.storyboard */,
 				49DF7D0F2431DF6B00683E1A /* Info.plist */,
 				49DF7D072431DF6800683E1A /* RandomCatPicture.xcdatamodeld */,
+				49DF7D152431E29200683E1A /* Network.swift */,
 			);
 			path = RandomCatPicture;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DF7D162431E29200683E1A /* Network.swift in Sources */,
 				49DF7D032431DF6800683E1A /* ViewController.swift in Sources */,
 				49DF7CFF2431DF6800683E1A /* AppDelegate.swift in Sources */,
 				49DF7D092431DF6800683E1A /* RandomCatPicture.xcdatamodeld in Sources */,
